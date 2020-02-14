@@ -1,0 +1,15 @@
+import adivinhacao as adv
+import dica
+
+print(" Bem vindo")
+
+print(" 1 ou 2")
+
+opcao = int(input("Escolha o jogo"))
+
+if(opcao == 1):
+    print("carregando")
+    adv.jogar()
+if(opcao == 2):
+    print("Carregando")
+    dica.jogar()
